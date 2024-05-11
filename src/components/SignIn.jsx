@@ -122,7 +122,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-md:gap-5 max-w-screen-lg mx-auto">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-md:gap-5 max-w-screen-lg mx-auto max-md:mt-10">
       <div className="flex items-center justify-center md:justify-start">
         <div className="px-8 py-6 bg-gray-100 shadow-md text-left md:h-[600px] md:w-[500px] w-full">
           <div className="mb-4 mt-10">

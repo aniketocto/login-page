@@ -57,7 +57,7 @@ const Register = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="p-10 shadow-md bg-black w-full md:w-[500px]">
+      <div className="p-10 shadow-md bg-black w-full h-[600px] max-md:w-[400px]">
         <div className="mb-12">
           <h3 className="text-xl text-white font-bold">Create an Account</h3>
         </div>
@@ -72,9 +72,8 @@ const Register = () => {
             Manage your purchases and returns in your order history
           </li>
           <li className="pb-2">
-            Become a{" "}
-            <span className="underline">HUGO BOSS EXPERIENCE</span> member to
-            profit from special offers
+            Become a <span className="underline">HUGO BOSS EXPERIENCE</span>{" "}
+            member to profit from special offers
           </li>
         </ul>
         <button
