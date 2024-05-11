@@ -39,7 +39,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className=" ml-96 mt-10 p-5 w-[55%] flex flex-col bg-gray-100 shadow-md">
+    <div className=" ml-96 mt-10 p-5 w-[55%] max-md:w-[100%]  max-md:m-2 flex flex-col bg-gray-100 shadow-md">
       <div className=" text-start">
         <h3 className="text-xl font-bold">CREATE ACCOUNT</h3>
       </div>
@@ -197,7 +197,7 @@ const SignUp = () => {
         </p>
         <button
           type="submit"
-          className=" w-40 py-3 mt-5 text-sm font-medium ml-[80%] text-white bg-black shadow-sm focus:outline-none focus:ring-1"
+          className=" w-40 py-3 mt-5 text-sm font-medium ml-[80%] max-md:ml-[45%] text-white bg-black shadow-sm focus:outline-none focus:ring-1"
         >
           Create Account
         </button>
